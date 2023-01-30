@@ -28,7 +28,7 @@
     padding-left: 10px;
     margin: 5px;
 }
-
+/* Melhorar o campo input */
 .resultado {
     width: 295px;
     height: 40px;
@@ -36,9 +36,14 @@
     margin-left: 2px;
 }
 
+.algarismos {
+    display: flex;
+    flex-direction: row ;
+}
+
 .conteiner-numeros {
     display: grid;
-    grid-template-columns: 90px 90px 90px;
+    /* grid-template-columns: 90px 90px 90px; */
     gap: 3px;
     justify-content: center;
     margin-top: 5px;
@@ -48,7 +53,7 @@
 
 .conteiner-operadores {
     display: grid;
-    grid-template-columns: repeat(4, 70px);
+    /* grid-template-columns: repeat(4, 70px); */
     justify-content: center;
     margin-top: 80px;
     gap: 4px;
